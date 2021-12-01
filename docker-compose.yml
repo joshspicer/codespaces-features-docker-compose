@@ -1,4 +1,5 @@
 version: '3.7'
 
-db:
-  image: postgres:latest
+services:
+  db:
+    image: postgres:latest
