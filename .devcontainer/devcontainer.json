@@ -5,6 +5,7 @@
 		"docker-compose.yml",
 	],
 	"service": "dev_container",
+	"overrideCommand": true,
 	
 	"settings": {},
 	
