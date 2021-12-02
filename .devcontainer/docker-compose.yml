@@ -7,6 +7,7 @@ services:
 
     volumes:
       - .:/workspace:cached
+      - /var/run/docker.sock:/var/run/docker.sock
     init: true
     command: /bin/sh -c "while sleep 1000; do :; done"
     network_mode: host
