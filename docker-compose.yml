@@ -3,3 +3,5 @@ version: '3.7'
 services:
   db:
     image: postgres:latest
+    ports:
+      -8080:8080
